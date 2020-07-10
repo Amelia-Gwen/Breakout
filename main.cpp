@@ -1,6 +1,7 @@
-#include <iostream>
+#include "Breakout.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    using namespace breakout;
+    Breakout breakout;
+    breakout.run();
 }
